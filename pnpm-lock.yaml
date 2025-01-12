@@ -8,6 +8,9 @@ dependencies:
   '@upstash/rag-chat':
     specifier: ^2.0.3
     version: 2.0.3(@browserbasehq/stagehand@1.9.0)(@ibm-cloud/watsonx-ai@1.3.1)(@langchain/openai@0.2.11)(@upstash/ratelimit@2.0.5)(@upstash/redis@1.34.3)(@upstash/vector@1.2.0)(axios@1.7.4)(ibm-cloud-sdk-core@5.1.1)(openai@4.78.1)(react-dom@19.0.0)(react@19.0.0)(svelte@5.17.3)(vue@3.5.13)(zod@3.24.1)
+  '@upstash/redis':
+    specifier: ^1.34.3
+    version: 1.34.3
   next:
     specifier: 15.1.4
     version: 15.1.4(@playwright/test@1.49.1)(react-dom@19.0.0)(react@19.0.0)
@@ -2020,7 +2023,7 @@ packages:
     resolution: {integrity: sha512-DukmaFRnY6AzAALSH4J2M3k6PkaC+MfaAGdEERRWcC9q3/TWQwLpHR8ZRLKTdQ3aBDL64EdluRDjJqKw+BPZEw==}
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
-      form-data: 4.0.0
+      form-data: 4.0.1
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
